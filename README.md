@@ -1,5 +1,5 @@
-# IUU-Fishing-Detection-DAEN-690-Capstone
-## Data Science and Design of a Decision Support Tool to Detect Illegal Fishing
+## IUU-Fishing-Detection-DAEN-690-Capstone
+### Data Science and Design of a Decision Support Tool to Detect Illegal Fishing
 ### Lockheed Martin - Stargazer
 
 ## **Team:**
@@ -27,3 +27,9 @@ The meta-model can be partitioned into two key functions. The first model is a r
 
 * Global Fishing Watch - Vessell map, AIS tracking, type, protected areas
 * Digital Labs - Satellite 
+
+## **Prior work - Dependants**
+
+* Website: http://seor.vse.gmu.edu/~klaskey/Capstone/IUU_Fishing/index.html
+* Data: https://github.com/iuu-fishing-detection
+* Research: https://www.researchgate.net/publication/304711836_Improving_Fishing_Pattern_Detection_from_Satellite_AIS_Using_Data_Mining_and_Machine_Learning
