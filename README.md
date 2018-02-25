@@ -1,13 +1,13 @@
 # IUU-Fishing-Detection-DAEN-690-Capstone
 ## Data Science and Design of a Decision Support Tool to Detect Illegal Fishing
-### Lockheed Martin - Stargazer **
+### Lockheed Martin - Stargazer**
 
 ## **Team:**
-A. Mityushina (Product Owner, Developer) - mityushina.a @ gmail dot com
-S. Jagtap (Scrum Master, Developer)
-A. Mishra (Developer)
-R. Skaddan (Developer)
-E. Taylor (Developer)
+- A. Mityushina (Product Owner, Developer) - mityushina.a @ gmail dot com
+- S. Jagtap (Scrum Master, Developer)
+- A. Mishra (Developer)
+- R. Skaddan (Developer)
+- E. Taylor (Developer)
 
  
 ## **Abstract**
