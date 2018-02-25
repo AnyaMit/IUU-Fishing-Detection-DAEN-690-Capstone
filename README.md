@@ -1,10 +1,16 @@
-IUU-Fishing-Detection-DAEN-690-Capstone
-
+/**IUU-Fishing-Detection-DAEN-690-Capstone
 Data Science and Design of a Decision Support Tool to Detect Illegal Fishing
-Lockheed Martin - Stargazer
-A. Mityushina, S. Jagtap,  A. Mishra, R. Skaddan, E. Taylor
+Lockheed Martin - Stargazer **/
+
+/*Team: 
+A. Mityushina (Product Owner, Developer) - mityushina.a @ gmail dot com
+S. Jagtap (Scrum Master, Developer)
+A. Mishra (Developer)
+R. Skaddan (Developer)
+E. Taylor (Developer)
+*/
  
-Abstract
+/**Abstract**/
 Illegal, unreported and unregulated (IUU) fishing is a worldwide issue contributing to ecological devastation. It is estimated that 30% of the total fishing yield is due to IUU, making it a top priority for global law enforcement services. This project will develop a decision support system which assists law enforcement in the apprehension of vessels who are partaking in illegal fishing behavior (i.e. IUU). The behavior and data analysis can be extrapolated to other vessel identification scenarios, making this project valuable to other corporations and agencies.
 The primary contributor of data comes from the Global Fishing Watch (GFW) but there are other sources which provide critical identification characteristics of vessel. Six data sources are combined to ascertain the following:
 
@@ -15,3 +21,12 @@ This project builds on existing work completed by a prior GMU engineering team. 
 Given the scope and complexity of this problem, the team is focusing on one specific geographical area. By narrowing the region of interest to the Pacific Ocean, this reduces the extraneous data and increases the ability to verify the model before scaling out to additional areas.
 
 The meta-model can be partitioned into two key functions. The first model is a regression model based on AIS location data, speed of the vessel, type of the vessel. This model is able to predict if the vessel is fishing or not fishing. Second, using a light analysis model to identify low light emission from a satellite image. The identification of low light targets assists with vessel identification and tracking. This is an important component as the current knowledge dictates that much of the illegal fishing occurs after the sun has set. The system recognizes and flags a vessel operating with an identified behavior, then the data is enriched by coordinating satellite imagery. This process of vessel identification through AIS tracking, and a confirmation through satellite imagery improves response time therefore increasing the analysis for vehicle apprehension. Thus, the combination of our two models, and the six data sources described above ranks vessels with a priority and generates a que in which to allocate processing power to image recognition. Vessels identified with a high risk of illegal activity are communicated to the user through a display. The identification of a vessel engaged in illegal behavior is identified through the support tool, but the decision to engage in apprehending the will be left to the individual.
+
+
+/** Data Resources**/
+
+* Global Fishing Watch - Vessell map, AIS tracking, type, protected areas
+* Digital Labs - Satallite 
+
+
+
