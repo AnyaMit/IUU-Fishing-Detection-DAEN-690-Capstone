@@ -1,0 +1,11 @@
+                                                var   rel.inf
+timestamp                                 timestamp 20.272363
+measure_daylightavg_3600   measure_daylightavg_3600 15.632781
+speed                                         speed 12.504937
+measure_speedavg_1800         measure_speedavg_1800 11.238283
+measure_speed                         measure_speed  9.626057
+distance_from_shore             distance_from_shore  9.153840
+distance_from_port               distance_from_port  8.053687
+measure_speedavg_43200       measure_speedavg_43200  6.488197
+measure_speedstddev_10800 measure_speedstddev_10800  4.642296
+measure_daylightavg_10800 measure_daylightavg_10800  2.387559

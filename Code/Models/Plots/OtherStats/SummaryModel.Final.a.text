@@ -1,0 +1,24 @@
+
+Call:
+glm(formula = classification ~ 1 + distance_from_shore, family = binomial(link = "logit"), 
+    data = all_data_bin)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.1511  -0.9668  -0.8428   1.2610   1.5540  
+
+Coefficients:
+                      Estimate Std. Error z value Pr(>|z|)    
+(Intercept)         -8.523e-01  3.785e-03  -225.2   <2e-16 ***
+distance_from_shore  1.073e-06  5.656e-09   189.7   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 855317  on 629533  degrees of freedom
+Residual deviance: 815960  on 629532  degrees of freedom
+AIC: 815964
+
+Number of Fisher Scoring iterations: 4
+

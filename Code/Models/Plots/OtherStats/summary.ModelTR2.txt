@@ -1,0 +1,9 @@
+                                                  var   rel.inf
+distance_from_shore               distance_from_shore 46.682409
+measure_speedavg_3600           measure_speedavg_3600 13.387762
+measure_speedavg_10800         measure_speedavg_10800  9.066486
+measure_speedavg_1800           measure_speedavg_1800  8.001848
+measure_latavg_900                 measure_latavg_900  6.744203
+measure_speedavg_21600         measure_speedavg_21600  6.546391
+measure_speedavg_900             measure_speedavg_900  5.013646
+measure_coursestddev_86400 measure_coursestddev_86400  4.557255

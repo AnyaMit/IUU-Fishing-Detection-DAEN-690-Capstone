@@ -1,0 +1,94 @@
+
+Call:
+glm(formula = classification ~ 1 + distance_from_shore + measure_speedavg_1800 + 
+    measure_speedavg_21600 + measure_coursestddev_86400 + distance_from_port + 
+    geartype_code_flag_LL * distance_from_port + geartype_code_flag_LL * 
+    measure_coursestddev_86400 + geartype_code_flag_LL * distance_from_shore + 
+    geartype_code_flag_LL * measure_speedavg_21600 + geartype_code_flag_LL * 
+    measure_coursestddev_43200 + geartype_code_flag_LL * measure_pos_86400 + 
+    geartype_code_flag_LL * measure_pos_43200 + geartype_code_flag_LL * 
+    measure_coursestddev_21600 + geartype_code_flag_LL * measure_pos_21600 + 
+    geartype_code_flag_PS * measure_speedavg_1800 + geartype_code_flag_PS * 
+    distance_from_shore + geartype_code_flag_PS * distance_from_port + 
+    geartype_code_flag_PS * measure_daylightavg_3600 + geartype_code_flag_PS * 
+    speed + geartype_code_flag_PS * measure_speed + geartype_code_flag_PS * 
+    measure_speedavg_43200 + geartype_code_flag_PS * timestamp + 
+    geartype_code_flag_PS * measure_speedstddev_10800 + geartype_code_flag_PS * 
+    measure_daylightavg_10800 + geartype_code_flag_TR * distance_from_shore + 
+    geartype_code_flag_TR * measure_speedavg_1800 + geartype_code_flag_TR * 
+    measure_speedavg_21600 + geartype_code_flag_TR * measure_coursestddev_86400 + 
+    geartype_code_flag_TR * measure_speedavg_3600 + geartype_code_flag_TR * 
+    measure_speedavg_10800 + geartype_code_flag_TR * measure_speedavg_900 + 
+    geartype_code_flag_TR * measure_latavg_900, family = binomial(link = "logit"), 
+    data = all_data_bin)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.3719  -0.6726  -0.2519   0.5798   8.4904  
+
+Coefficients: (15 not defined because of singularities)
+                                                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                      -3.119e+01  3.294e-01 -94.674  < 2e-16 ***
+distance_from_shore                               9.918e-07  2.092e-08  47.419  < 2e-16 ***
+measure_speedavg_1800                            -5.658e+00  1.063e+00  -5.324 1.02e-07 ***
+measure_speedavg_21600                           -1.450e+00  8.010e-02 -18.107  < 2e-16 ***
+measure_coursestddev_86400                        3.951e+00  3.432e-02 115.128  < 2e-16 ***
+distance_from_port                                8.157e-07  1.641e-08  49.707  < 2e-16 ***
+geartype_code_flag_LL                             6.441e-01  6.544e-02   9.842  < 2e-16 ***
+measure_coursestddev_43200                        2.051e-01  3.095e-02   6.628 3.40e-11 ***
+measure_pos_86400                                -1.034e-01  1.037e-02  -9.968  < 2e-16 ***
+measure_pos_43200                                -1.334e+00  2.476e-02 -53.893  < 2e-16 ***
+measure_coursestddev_21600                        1.316e+00  2.246e-02  58.613  < 2e-16 ***
+measure_pos_21600                                 1.007e+00  2.216e-02  45.456  < 2e-16 ***
+geartype_code_flag_PS                                    NA         NA      NA       NA    
+measure_daylightavg_3600                          1.582e-01  1.625e-02   9.735  < 2e-16 ***
+speed                                            -6.451e-03  1.639e-02  -0.394 0.693935    
+measure_speed                                     8.159e-01  3.089e-01   2.641 0.008271 ** 
+measure_speedavg_43200                           -1.639e+00  3.891e-02 -42.120  < 2e-16 ***
+timestamp                                         1.926e-08  1.246e-10 154.635  < 2e-16 ***
+measure_speedstddev_10800                         8.232e-01  5.383e-02  15.291  < 2e-16 ***
+measure_daylightavg_10800                        -7.683e-02  1.625e-02  -4.729 2.26e-06 ***
+geartype_code_flag_TR                                    NA         NA      NA       NA    
+measure_speedavg_3600                            -1.569e+00  5.656e-01  -2.775 0.005525 ** 
+measure_speedavg_10800                            2.174e+00  2.688e-01   8.088 6.07e-16 ***
+measure_speedavg_900                              6.655e+00  8.558e-01   7.776 7.47e-15 ***
+measure_latavg_900                                1.757e-02  4.220e-04  41.623  < 2e-16 ***
+distance_from_port:geartype_code_flag_LL         -3.288e-07  6.722e-08  -4.892 1.00e-06 ***
+measure_coursestddev_86400:geartype_code_flag_LL  8.220e-01  6.873e-02  11.961  < 2e-16 ***
+distance_from_shore:geartype_code_flag_LL         2.533e-07  7.560e-08   3.350 0.000809 ***
+measure_speedavg_21600:geartype_code_flag_LL      1.813e+00  2.289e-01   7.919 2.40e-15 ***
+geartype_code_flag_LL:measure_coursestddev_43200  2.728e+00  7.063e-02  38.631  < 2e-16 ***
+geartype_code_flag_LL:measure_pos_86400          -3.926e-01  3.375e-02 -11.634  < 2e-16 ***
+geartype_code_flag_LL:measure_pos_43200           1.600e+00  3.306e-02  48.396  < 2e-16 ***
+geartype_code_flag_LL:measure_coursestddev_21600 -1.237e+00  6.197e-02 -19.962  < 2e-16 ***
+geartype_code_flag_LL:measure_pos_21600          -1.942e+00  7.780e-02 -24.958  < 2e-16 ***
+measure_speedavg_1800:geartype_code_flag_PS              NA         NA      NA       NA    
+distance_from_shore:geartype_code_flag_PS                NA         NA      NA       NA    
+distance_from_port:geartype_code_flag_PS                 NA         NA      NA       NA    
+geartype_code_flag_PS:measure_daylightavg_3600           NA         NA      NA       NA    
+geartype_code_flag_PS:speed                              NA         NA      NA       NA    
+geartype_code_flag_PS:measure_speed                      NA         NA      NA       NA    
+geartype_code_flag_PS:measure_speedavg_43200             NA         NA      NA       NA    
+geartype_code_flag_PS:timestamp                          NA         NA      NA       NA    
+geartype_code_flag_PS:measure_speedstddev_10800          NA         NA      NA       NA    
+geartype_code_flag_PS:measure_daylightavg_10800          NA         NA      NA       NA    
+distance_from_shore:geartype_code_flag_TR                NA         NA      NA       NA    
+measure_speedavg_1800:geartype_code_flag_TR       6.129e+00  1.099e+00   5.576 2.46e-08 ***
+measure_speedavg_21600:geartype_code_flag_TR             NA         NA      NA       NA    
+measure_coursestddev_86400:geartype_code_flag_TR         NA         NA      NA       NA    
+geartype_code_flag_TR:measure_speedavg_3600       2.780e+00  5.885e-01   4.723 2.32e-06 ***
+geartype_code_flag_TR:measure_speedavg_10800     -1.850e+00  2.820e-01  -6.561 5.34e-11 ***
+geartype_code_flag_TR:measure_speedavg_900       -6.373e+00  8.709e-01  -7.318 2.52e-13 ***
+geartype_code_flag_TR:measure_latavg_900         -8.085e-03  4.354e-04 -18.570  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 855215  on 629461  degrees of freedom
+Residual deviance: 523793  on 629425  degrees of freedom
+  (72 observations deleted due to missingness)
+AIC: 523867
+
+Number of Fisher Scoring iterations: 10
+
